@@ -1,14 +1,13 @@
 # Nusantara Restaurant - Website
 
-This project is a simple and visually appealing restaurant website called **Nusantara Restaurant**. It provides users with a menu to choose from, the ability to place an order, and select different options for sides and payment methods. The website features a responsive design with a fun and interactive layout.
+This project is a simple and visually appealing menu website called **Nusantara Restaurant**. It provides users with a menu to choose from, the ability to place an order, and select different options for sides and payment methods. The website features a responsive design with a fun and interactive layout.
 
 ---
 
 ## Features
 
-- **Menu Display**: Shows different menu items with images, descriptions, and prices.
+- **Menu Display**: Shows different menu items with images and descriptions.
 - **Order Form**: Allows customers to place their orders, select sides, and choose payment methods.
-- **Responsive Layout**: The website is styled to be responsive and looks great on various screen sizes.
 - **Custom Fonts & Animations**: The page uses a custom font and background animations for an engaging experience.
 
 ---
@@ -62,12 +61,4 @@ Feel free to modify the website for your needs! You can:
 
 ---
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Credits
-
-- **Made with Love by satuucl**: The design and concept of the website were created by satuucl. Feel free to reach out for any inquiries or suggestions.
