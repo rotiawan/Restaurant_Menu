@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nusantara Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="body">
+        <header>
+            <img src="https://i.pinimg.com/736x/d5/f8/88/d5f8882894314945f5a1b4edcb88f652.jpg" id="header-img"/>
+            <div id="header">
+                <h1>Nusantara Restaurant</h1>
+                <nav>
+                    <h2><a href="#menu"><p>MENU</p></a></h2>
+                    <h2><a href="#order-form"><p>ORDER</p></a></h2>
+                </nav>
+            </div>
+        </header>
+        <br><br>
+        <main>
+            <section id="menu">
+                <h2>Menu</h2>
+                <article class="article1">
+                    <img src="https://i.pinimg.com/736x/4e/db/2a/4edb2af80a4cc8645260db4908499913.jpg" class="img" />
+                    <div class="text">
+                        <h3>Gourmet Burger Platter</h3>
+                        <p>
+                            This delicious gourmet burger platter includes a juicy beef patty with grill marks, served with a toasted sesame bun, fresh lettuce, tomato, and onions. On the side, there are crispy golden French fries, a fresh garden salad with grilled zucchini and cherry tomatoes, and a creamy dipping sauce. A perfect combination of flavors and textures for a satisfying meal! 🍔🥗🍟
+                        </p>
+                    </div>
+                </article>
+                <br><hr><br>
+                <article class="article2">
+                    <img src="https://i.pinimg.com/474x/08/c7/0d/08c70d473888e35bd1c4cd9d1d2983d7.jpg" class="img" />
+                    <div class="text">
+                        <h3>Greek Salad</h3>
+                        <p>
+                            A fresh and colorful Greek salad made with crisp lettuce, juicy cherry tomatoes, sliced cucumbers, red onions, and yellow bell peppers. It is topped with cubes of feta cheese, black olives, and fresh parsley. Drizzled with olive oil and seasoned with black pepper, this salad offers a perfect balance of flavors—tangy, crunchy, and refreshing! 🥗🍅🧀
+                        </p>
+                    </div>
+                </article>
+                <br><hr><br>
+                <article class="article3">
+                    <img src="https://i.pinimg.com/474x/ca/1f/61/ca1f61c70369b2faff434137a40b89f9.jpg" class="img" />
+                    <div class="text">
+                        <h3>Spicy Chili Con Carne</h3>
+                        <p>
+                            A hearty and flavorful dish made with ground beef, red kidney beans, and a rich tomato-based sauce. This spicy chili is infused with aromatic spices like cinnamon, cumin, and paprika, and garnished with fresh cilantro and sliced cherry tomatoes. Red chili peppers add an extra kick, making it a perfect comfort food for spice lovers! 🌶️🍲🔥
+                        </p>
+                    </div>
+                </article>
+                <br><hr><br>
+            </section>
+            <section id="order-form"> 
+                <h2>Place Your Order</h2>
+                <div class="form">
+                    <form>
+                        <label for="burger">Gourmet Burger:</label>
+                        <input type="number" id="burger" min="0" value="0"><br><br>
+                
+                        <label for="salad">Greek Salad:</label>
+                        <input type="number" id="salad" min="0" value="0"><br><br>
+                
+                        <label for="chili">Spicy Chili Con Carne:</label>
+                        <input type="number" id="chili" name="chili" min="0" value="0"><br><br>
+                
+                        <p>Choose Your Side Dish:</p>
+                        <input type="checkbox" id="fries" value="fries">
+                        <label for="fries">French Fries</label>
+                
+                        <input type="checkbox" id="soup" value="soup">
+                        <label for="soup">Soup</label>
+                
+                        <input type="checkbox" id="drink" value="drink">
+                        <label for="drink">Soft Drink</label>
+                        <br><br>
+                
+                        <p>Payment Method:</p>
+                        <input type="radio" id="cash" name="payment" value="cash">
+                        <label for="cash">Cash on Delivery</label>
+                
+                        <input type="radio" id="card" name="payment" value="card">
+                        <label for="card">Credit/Debit Card</label>
+                        <br><br>
+                
+                        <label for="special-requests">Special Requests:</label><br>
+                        <textarea id="special-requests" name="special-requests" rows="4" cols="40" placeholder="Write any special requests here...">
+                        </textarea>
+                        <br><br>
+                
+                        <input type="submit" value="Go To Checkout">
+                    </form>
+                </div>
+            </section>                
+        </main>
+        <footer>
+            <p>Made with love by satuucl</p>
+        </footer> 
+    </div>  
+</body>
+</html>
